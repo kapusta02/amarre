@@ -1,0 +1,27 @@
+{
+  "header": {
+    "reservations": "Reservations",
+    "glovo": "Glovo",
+    "menu": "Menu",
+    "contact": "Contact"
+  },
+  "reservation": {
+    "info": "Reservation Information:",
+    "name": "My name is",
+    "phone": "phone is",
+    "instructions": "For table reservations, please provide the following details:",
+    "fullName": "Full Name",
+    "phoneNumber": "Phone Number",
+    "cancellation": "Cancellation is possible only through WhatsApp at the following number:",
+    "submit": "Submit via WhatsApp",
+    "cancelNote": "Please notify about cancellation no later than 24 hours before the reservation time.",
+    "fillFields": "Please fill in all fields!"
+  },
+  "menu": {
+    "menu": "Menu",
+    "info": "For more menu items, please download our full menu in PDF format.",
+    "additionalInfo": "We offer a variety of dishes, including vegetarian and gluten-free options.",
+    "downloadLink": "Click here to download the menu.",
+    "sliderHeading": "Explore our delicious dishes"
+  }
+}

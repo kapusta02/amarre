@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Gila';
+    src: url("../public/fonts/Gila.ttf") format('truetype');
+    font-weight: normal;
+}
+*{
+    margin: 0;
+    font-family: 'Gila', sans-serif;
+}
+
+.link{
+    text-decoration: none;
+}

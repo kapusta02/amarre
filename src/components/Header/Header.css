@@ -1,0 +1,36 @@
+.logo{
+    width: 78px;
+}
+.header{
+    background-color: #1976d2;
+}
+.header-block-list-item{
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+}
+.header-block-list-item:hover{
+    text-decoration:underline;
+}
+.header-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-block-item{
+    display: flex;
+    align-items: baseline
+}
+.btn-header{
+    background: none;
+    border: none;
+    font-size: 16px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+.header-block-header{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
