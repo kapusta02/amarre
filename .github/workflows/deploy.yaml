@@ -12,12 +12,12 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3  # This is already the latest version
+        uses: actions/checkout@v3  # Убедитесь, что это последняя версия
 
       - name: Setup Node
-        uses: actions/setup-node@v3  # This is already the latest version
+        uses: actions/setup-node@v3  # Убедитесь, что это последняя версия
         with:
-          node-version: 20
+          node-version: 20  # Убедитесь, что используется Node.js 20
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
@@ -35,17 +35,17 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/master'  # Updated to 'master'
+    if: github.ref == 'refs/heads/master'  # Убедитесь, что условие корректно
 
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v3  # This is already the latest version
+        uses: actions/download-artifact@v3  # Убедитесь, что это последняя версия
         with:
           name: production-files
           path: ./dist
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3  # This is already the latest version
+        uses: peaceiris/actions-gh-pages@v3  # Убедитесь, что это последняя версия
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
