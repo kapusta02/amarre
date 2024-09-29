@@ -21,7 +21,7 @@ export const Header = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container">
                     <Link to="/" className="navbar-brand">
-                        <img src="../../../public/images/logo.png" alt="logo" className="logo"/>
+                        <img src="/amarre/public/images/logo.png" alt="logo" className="logo"/>
                     </Link>
                     <button
                         className="navbar-toggler"
@@ -48,7 +48,7 @@ export const Header = () => {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    href="../../../public/menu/menuamarre_nuevo.pdf"
+                                    href="/amarre/public/menu/menuamarre_nuevo.pdf"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="nav-link"
